@@ -1,0 +1,16 @@
+from tkinter import Tk, Label, Button
+
+def mensaje():
+    print("¡FUNCIONA!")
+
+ventana = Tk()
+ventana.geometry("600x480")
+ventana.title("Ventana Hola, Mundo")
+
+lbl =Label(ventana, text='Éste es un [Label] tkinter')
+lbl. pack()
+
+btn = Button(ventana, text='Presiona este [Button] para mensaje', command=mensaje)
+btn.pack()
+
+ventana.mainloop()
