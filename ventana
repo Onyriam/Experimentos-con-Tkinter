@@ -5,7 +5,7 @@ def mensaje():
 
 ventana = Tk()
 ventana.geometry("600x480")
-ventana.title("Ventana Hola, Mundo")
+ventana.title("Ventana '¡Hola, Mundo!'")
 
 lbl =Label(ventana, text='Éste es un [Label] tkinter')
 lbl. pack()
